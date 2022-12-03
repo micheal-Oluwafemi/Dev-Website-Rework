@@ -1,0 +1,206 @@
+/* Navbar Section */
+.navbar {
+  background-color: #343a40;
+  border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+#nav-link {
+  color: whitesmoke;
+  font-size: large;
+}
+
+#nav-link:hover {
+  color: #17a2b8;
+}
+
+/* Body */
+.container {
+  overflow: hidden;
+  padding: 0 2rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.btp-body {
+  padding: 2rem;
+}
+
+.backtoprofile {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: rgba(128, 128, 128, 0.85);
+}
+
+.backtoprofile:hover {
+  background-color: grey;
+  color: #fff;
+}
+
+/* main-body */
+.showcase {
+  border: none;
+  border-radius: 5px;
+  height: 60vh;
+  width: 70%;
+  margin: auto;
+  background-color: #17a3b8cc;
+  padding: 0.8rem;
+}
+
+.social-icons {
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 10px 7px 0 3px;
+  cursor: pointer;
+}
+
+/* Bio */
+.bio-body {
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  margin-top: 7px;
+  padding: 0.4rem;
+}
+
+.bio-name {
+  color: #17a2b8;
+  margin-top: 1rem;
+  margin-bottom: 0.2px;
+}
+
+.bio-txt {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+/* SKill set */
+.skill-heading {
+  margin-top: 1.5rem;
+}
+
+.skill-set {
+  justify-content: center;
+  display: flex;
+  font-size: small;
+  margin: 5px 0 0.9rem 0;
+  color: #333;
+}
+
+/* Experience & Education */
+.Experience-Education {
+  justify-content: center;
+  margin: 7px auto;
+}
+
+.Experience {
+  border: 1px solid #ccc;
+  width: 70%;
+  border-radius: 3px;
+  margin-right: 1%;
+  margin: auto;
+  padding: 0.6rem;
+  padding-left: 12px;
+}
+
+.Education {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 70%;
+  margin: auto;
+  padding: 0.6rem;
+}
+
+.sub-heading {
+  color: #222;
+  font-weight: 600;
+}
+
+.header {
+  color: #17a2b8;
+  margin: 16px 0 0 0;
+}
+p {
+  font-size: 15.4px;
+}
+
+.header-th {
+  color: #222;
+  font-weight: 600;
+  margin: 2rem 0 5px 0;
+}
+
+.header-td {
+  margin-top: 0.8rem;
+}
+
+.top {
+  margin-bottom: 2rem;
+}
+
+/* GitHub Respos */
+.gitname {
+  margin: auto;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.git {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 70%;
+  margin: auto;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  justify-content: space-between;
+}
+
+.btn1 {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 3px;
+  margin: 0.5rem 0 6px 0;
+}
+.btn2 {
+  background-color: #17a2b8;
+  color: #fff;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 3px;
+}
+
+.backtohome {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: #17a2b8;
+}
+
+.backtohome:hover {
+  color: #fff;
+}

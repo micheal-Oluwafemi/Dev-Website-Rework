@@ -1,0 +1,83 @@
+/* Navbar Section */
+.navbar {
+  background-color: #343a40;
+  border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+#nav-link {
+  color: whitesmoke;
+  font-size: large;
+}
+
+#nav-link:hover {
+  color: #17a2b8;
+}
+
+/* Developer Section */
+
+.heading {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #17a2b8;
+  margin: auto;
+}
+
+.heading-text {
+  padding: 0px 0 7px 0;
+  font-weight: 400;
+}
+
+/* Developer Card */
+.dev-name {
+  color: #343a40;
+}
+
+.dev-info {
+  margin-top: 0.3rem;
+  margin-left: 20px;
+}
+
+.work-status {
+  color: #17a2b8;
+}
+
+.profile-btn {
+  border: none;
+  margin-top: 2px;
+  background-color: #17a2b8;
+  padding: 7px 15px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.profile-btn:hover {
+  color: white;
+}
+
+.dev-body {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.7rem;
+  background-color: #f1f1f197;
+}
+
+.backtohome {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: #17a2b8;
+}
+
+.backtohome:hover {
+  color: #fff;
+}

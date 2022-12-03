@@ -1,0 +1,95 @@
+/* Navbar Section */
+.navbar {
+  background-color: #343a40;
+  border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+#nav-link {
+  color: whitesmoke;
+  font-size: large;
+}
+
+#nav-link:hover {
+  color: #17a2b8;
+}
+
+/* Sign-up Section */
+.Signup-section {
+  margin-top: 3rem;
+}
+
+.form-heading {
+  font-size: 2.2rem;
+  font-weight: 500;
+  color: #17a2b8;
+}
+
+.form-txt {
+  padding: 4px 0 6px 0;
+  font-weight: 500;
+  font-size: large;
+}
+
+input {
+  padding: 14px 20px;
+  margin-bottom: 10px;
+  border: 1px solid #aaa;
+  font-family: inherit;
+  color: inherit;
+  width: 80%;
+  border-bottom: 3px solid #aaa;
+  display: block;
+}
+
+input:focus {
+  outline: 1px solid #aaa;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  border-bottom: 3px solid #55c57a;
+  color: #444;
+}
+
+input:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+
+input::placeholder {
+  text-align: start;
+}
+
+.form-btn {
+  padding: 8px 20px;
+  border: none;
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.question-link {
+  margin-top: 4px;
+  font-size: 1rem;
+}
+
+.backtohome {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 12px;
+  background-color: #17a2b8;
+}
+
+.backtohome:hover {
+  color: #fff;
+}
+
+.signin-btn {
+  text-decoration: none;
+  color: #17a2b8;
+}

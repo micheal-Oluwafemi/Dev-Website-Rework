@@ -1,0 +1,123 @@
+/* Navbar Section */
+.navbar {
+  background-color: #343a40;
+  border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+#nav-link {
+  color: whitesmoke;
+  font-size: large;
+}
+
+#nav-link:hover {
+  color: #17a2b8;
+}
+
+/* Body */
+.user-help {
+  display: flex;
+  margin-top: 8px;
+  margin-bottom: 1rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #17a2b8;
+  padding-bottom: 0.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.fill {
+  color: #17a2b8;
+}
+
+.greeting {
+  font-weight: 500;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.links {
+  margin-bottom: 1rem;
+  text-decoration: auto;
+  border: none;
+  padding: 6px 7px;
+  background-color: #f1f1f1;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 6px;
+  transition: all 0.3s;
+}
+
+.links:hover {
+  color: #fff;
+  background-color: #666;
+}
+
+.experience-heading {
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin: 4rem 0 1.6rem 0;
+}
+
+.tile-body {
+  display: flex;
+  margin-bottom: 9px;
+  max-width: 80%;
+}
+
+.tile {
+  padding: 8px 40px;
+  border: none;
+  background-color: #f0f0f0;
+  margin-right: 2px;
+}
+
+.tile-inner {
+  padding: 8px 40px;
+  border: none;
+  margin-right: 2px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #222;
+}
+
+.delete {
+  text-align: center;
+  border: none;
+  color: #fff;
+  background-color: #dc3545;
+  margin: 3px;
+  padding: 10px 8px;
+}
+
+.DMA {
+  text-decoration: none;
+  color: white;
+  background-color: #dc3545;
+  padding: 8px 5px 8px 2px;
+  font-size: small;
+  text-align: center;
+}
+
+.dma-b {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  margin-bottom: 3rem;
+}

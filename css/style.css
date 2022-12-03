@@ -1,0 +1,86 @@
+/* Navbar Section */
+.navbar {
+  background-color: #343a40;
+  border-bottom: 4px solid #17a2b8;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #17a2b8;
+}
+
+#nav-link {
+  color: whitesmoke;
+  font-size: large;
+}
+
+#nav-link:hover {
+  color: #17a2b8;
+}
+
+#brand-link {
+  color: #fff;
+  text-decoration: none;
+}
+/* Overlay Section */
+.overlay {
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("../img/slide-3.jpg");
+  background-position: center;
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 102vh;
+}
+
+.overlay-inner {
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  margin-top: 0.2rem;
+}
+
+.showcase-btn {
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 25px;
+  color: whitesmoke;
+  font-size: large;
+  margin-left: 4px;
+}
+
+.sign-up {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.sign-up:hover {
+  background-color: #17a3b8db;
+  color: whitesmoke;
+}
+
+.login {
+  background-color: whitesmoke;
+  color: #111;
+}
+
+.login:hover {
+  color: #111;
+  background-color: rgba(245, 245, 245, 0.83);
+}
